@@ -1,0 +1,363 @@
+{
+  "settingsVersion": 78,
+  "exportedAt": "2026-08-07T15:34:20.875Z",
+  "pluginVersion": "1.6.4.5",
+  "redacted": true,
+  "keys": [
+    "providers",
+    "chatModels",
+    "embeddingModels",
+    "chatModelId",
+    "chatTitleModelId",
+    "embeddingModelId",
+    "systemPrompt",
+    "pluginUpdateAutoDownloadEnabled",
+    "ragOptions",
+    "mcp",
+    "jsSandbox",
+    "webSearch",
+    "skills",
+    "yolo",
+    "debug",
+    "chatOptions",
+    "notificationOptions",
+    "continuationOptions",
+    "assistants",
+    "currentAssistantId"
+  ],
+  "data": {
+    "providers": [
+      {
+        "id": "sub2api",
+        "presetType": "openai-compatible",
+        "apiType": "openai-compatible",
+        "baseUrl": "https://alei2api.zeabur.app/v1",
+        "apiKey": "gYgFgYLZo3UfmdXvGsxVq13Cra9pvk0j1jXMZQ3UHD9e9oRUcpstPfY4DCpsAiEl89V",
+        "additionalSettings": {
+          "requestTransportMode": {
+            "desktop": "node",
+            "mobile": "browser"
+          }
+        }
+      }
+    ],
+    "chatModels": [
+      {
+        "providerId": "sub2api",
+        "id": "sub2api/gpt-5.6-terra",
+        "model": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "maxContextTokens": 1050000,
+        "modalities": [
+          "vision",
+          "text"
+        ],
+        "builtinToolProvider": "none",
+        "builtinTools": {
+          "gpt": {
+            "webSearch": {
+              "enabled": false
+            }
+          },
+          "openrouter": {
+            "webSearch": {
+              "enabled": false
+            }
+          },
+          "grok": {
+            "webSearch": {
+              "enabled": false
+            }
+          },
+          "gemini": {
+            "webSearch": {
+              "enabled": false
+            },
+            "urlContext": {
+              "enabled": false
+            }
+          }
+        },
+        "reasoningType": "openai"
+      }
+    ],
+    "embeddingModels": [],
+    "chatModelId": "sub2api/gpt-5.6-terra",
+    "chatTitleModelId": "sub2api/gpt-5.6-terra",
+    "embeddingModelId": "",
+    "systemPrompt": "",
+    "pluginUpdateAutoDownloadEnabled": true,
+    "ragOptions": {
+      "enabled": true,
+      "chunkSize": 1000,
+      "thresholdTokens": 20000,
+      "minSimilarity": 0,
+      "limit": 10,
+      "embeddingConcurrency": 10,
+      "excludePatterns": [],
+      "excludeYoloBaseDir": true,
+      "includePatterns": [],
+      "indexPdf": true,
+      "autoUpdateEnabled": true,
+      "autoUpdateIntervalHours": 0,
+      "lastAutoUpdateAt": 0
+    },
+    "mcp": {
+      "servers": [],
+      "builtinToolOptions": {
+        "delegate_subagent": {
+          "allowedModelIds": [],
+          "preferredModelId": ""
+        }
+      },
+      "enableToolDisclosure": false,
+      "localServer": {
+        "enabled": false,
+        "port": 27124,
+        "token": ""
+      }
+    },
+    "jsSandbox": {},
+    "webSearch": {
+      "providers": [],
+      "common": {
+        "resultSize": 10,
+        "searchTimeoutMs": 120000,
+        "scrapeTimeoutMs": 20000
+      }
+    },
+    "skills": {
+      "disabledSkillIds": []
+    },
+    "yolo": {
+      "baseDir": "YOLO"
+    },
+    "debug": {
+      "captureRawRequestDebug": false
+    },
+    "chatOptions": {
+      "includeCurrentFileContent": true,
+      "mentionDisplayMode": "inline",
+      "mentionContextMode": "light",
+      "chatApplyMode": "review-required",
+      "chatTitlePrompt": "",
+      "chatMode": "agent",
+      "fullAccessWarningConfirmed": false,
+      "reasoningLevelByModelId": {},
+      "autoContextCompactionEnabled": false,
+      "autoContextCompactionThresholdMode": "tokens",
+      "autoContextCompactionThresholdTokens": 100000,
+      "autoContextCompactionThresholdRatio": 0.8,
+      "imageReadingEnabled": true,
+      "imageCompressionEnabled": true,
+      "imageCompressionQuality": 85,
+      "externalImageFetchEnabled": false,
+      "chatExportIncludeThinking": true,
+      "chatExportIncludeToolCalls": false,
+      "ribbonClickAction": "sidebar",
+      "lastChatSurface": "chat",
+      "lastCliRuntimeId": "claude-code",
+      "cliModelIdByRuntime": {},
+      "cliReasoningEffortByModel": {},
+      "cliChatModeByRuntime": {},
+      "cliAgentYoloEnabledByRuntime": {},
+      "lastChatPlacement": "sidebar",
+      "quickAccessEntries": [
+        {
+          "type": "skill",
+          "name": "skill-creator"
+        },
+        {
+          "type": "skill",
+          "name": "snippet-creator"
+        },
+        {
+          "type": "snippet",
+          "id": "translate"
+        },
+        {
+          "type": "snippet",
+          "id": "review"
+        }
+      ],
+      "enterKeyCreatesNewline": false
+    },
+    "notificationOptions": {
+      "enabled": false,
+      "channel": "sound",
+      "timing": "when-unfocused",
+      "notifyOnApprovalRequired": true,
+      "notifyOnTaskCompleted": true
+    },
+    "continuationOptions": {
+      "continuationModelId": "",
+      "enableSmartSpace": true,
+      "enableSelectionChat": true,
+      "persistSelectionHighlight": true,
+      "manualContextEnabled": false,
+      "manualContextFolders": [],
+      "referenceRuleFolders": [],
+      "knowledgeBaseFolders": [],
+      "stream": true,
+      "maxContinuationChars": 8000,
+      "enableTabCompletion": false,
+      "tabCompletionModelId": "",
+      "tabCompletionOptions": {
+        "multipleCandidatesEnabled": true,
+        "idleTriggerEnabled": false,
+        "autoTriggerDelayMs": 3000,
+        "autoTriggerCooldownMs": 15000,
+        "triggerDelayMs": 3000,
+        "minContextLength": 5,
+        "contextRange": 4000,
+        "maxSuggestionLength": 2000,
+        "temperature": 0.5,
+        "requestTimeoutMs": 12000,
+        "reasoningLevel": "off"
+      },
+      "tabCompletionTriggers": [
+        {
+          "id": "sentence-end-comma",
+          "type": "string",
+          "pattern": ", ",
+          "enabled": true,
+          "acceptMode": "insert"
+        },
+        {
+          "id": "sentence-end-chinese-comma",
+          "type": "string",
+          "pattern": "，",
+          "enabled": true,
+          "acceptMode": "insert"
+        },
+        {
+          "id": "sentence-end-colon",
+          "type": "string",
+          "pattern": ": ",
+          "enabled": true,
+          "acceptMode": "insert"
+        },
+        {
+          "id": "sentence-end-chinese-colon",
+          "type": "string",
+          "pattern": "：",
+          "enabled": true,
+          "acceptMode": "insert"
+        },
+        {
+          "id": "newline",
+          "type": "regex",
+          "pattern": "\\n$",
+          "enabled": true,
+          "acceptMode": "insert"
+        },
+        {
+          "id": "list-item",
+          "type": "regex",
+          "pattern": "(?:^|\\n)[-*+]\\s$",
+          "enabled": true,
+          "acceptMode": "insert"
+        }
+      ],
+      "tabCompletionSystemPrompt": "Your job is to predict the most logical text that should be written at the location of the <mask/>. Your answer can be either code, a single word, or multiple sentences. Your answer must be in the same language as the text that is already there.\n\nAdditional constraints:\n{{tab_completion_constraints}}\n\nOutput only the text that should appear at the <mask/>. Do not include explanations, labels, or formatting.",
+      "tabCompletionConstraints": "",
+      "tabCompletionLengthPreset": "medium",
+      "smartSpaceTriggerMode": "single-space",
+      "smartSpaceUseWebSearch": false,
+      "smartSpaceUseUrlContext": false,
+      "enableQuickAsk": true,
+      "quickAskTrigger": "@",
+      "quickAskMode": "ask",
+      "quickAskAutoDockToTopRight": true,
+      "quickAskContextBeforeChars": 5000,
+      "quickAskContextAfterChars": 2000,
+      "streamFallbackRecoveryEnabled": true,
+      "primaryRequestTimeoutMs": 60000
+    },
+    "assistants": [
+      {
+        "id": "__default_agent__",
+        "name": "Default",
+        "description": "Default editing agent for sidebar chat.",
+        "systemPrompt": "",
+        "persona": "balanced",
+        "enableTools": true,
+        "includeBuiltinTools": true,
+        "enabledToolNames": [],
+        "toolPreferences": {
+          "yolo_local__fs_list": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__fs_search": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__fs_read": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__fs_edit": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__fs_write": {
+            "enabled": true,
+            "approvalMode": "require_approval"
+          },
+          "yolo_local__fs_delete": {
+            "enabled": true,
+            "approvalMode": "require_approval"
+          },
+          "yolo_local__fs_create_dir": {
+            "enabled": true,
+            "approvalMode": "require_approval"
+          },
+          "yolo_local__fs_move": {
+            "enabled": true,
+            "approvalMode": "require_approval"
+          },
+          "yolo_local__memory_add": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__memory_update": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__memory_delete": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__web_search": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__web_scrape": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__todo_write": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          },
+          "yolo_local__ask_user_question": {
+            "enabled": true,
+            "approvalMode": "full_access"
+          }
+        },
+        "toolServerPreferences": {},
+        "enabledSkills": [],
+        "skillPreferences": {},
+        "includeCurrentFileContent": true,
+        "timeContextEnabled": true,
+        "createdAt": 1786114128664,
+        "updatedAt": 1786114128664
+      }
+    ],
+    "currentAssistantId": "__default_agent__"
+  },
+  "$schema": "yolo-config-export",
+  "formatVersion": 1,
+  "checksum": "485f2d3e08cdcf7d36549ddef609ced0533d8c813f0f2072186f9a7f9b6b4446"
+}
