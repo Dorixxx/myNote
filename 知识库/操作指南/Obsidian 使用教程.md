@@ -1,12 +1,12 @@
 ---
-created: "2026-08-05"
-source: https://linux.do/t/topic/514603
-status: active
-topics:
+tags:
     - Obsidian
     - 知识管理
-type: howto
-updated: "2026-08-07"
+创建日期: "2026-08-05"
+更新日期: "2026-08-07"
+来源: https://linux.do/t/topic/514603
+状态: 有效
+类型: 操作方法
 ---
 [【Obsidian 使用系列】Obsidian 简单上手篇 - 文档共建 - LINUX DO](https://linux.do/t/topic/514603)
 

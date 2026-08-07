@@ -1,12 +1,12 @@
 ---
-created: 2026-08-07T00:00:00Z
-source: AI
-status: active
-topics:
+tags:
     - AI
     - 知识管理
-type: reference
-updated: "2026-08-07"
+创建日期: "2026-08-07"
+更新日期: "2026-08-07"
+来源: AI
+状态: 有效
+类型: 参考资料
 ---
 
 # AI 草稿

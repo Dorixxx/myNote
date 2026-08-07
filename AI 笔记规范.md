@@ -1,13 +1,13 @@
 ---
-type: reference
-status: active
-topics:
-  - Obsidian
-  - 知识管理
-  - AI
-source: AI
-created: 2026-08-07
-updated: 2026-08-07
+tags:
+    - Obsidian
+    - 知识管理
+    - AI
+创建日期: "2026-08-07"
+更新日期: "2026-08-07"
+来源: AI
+状态: 有效
+类型: 参考资料
 ---
 
 # AI 笔记规范
