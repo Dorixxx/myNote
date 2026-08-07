@@ -1,3 +1,13 @@
+---
+created: "2026-08-05"
+source: https://linux.do/t/topic/514603
+status: active
+topics:
+    - Obsidian
+    - 知识管理
+type: howto
+updated: "2026-08-07"
+---
 [【Obsidian 使用系列】Obsidian 简单上手篇 - 文档共建 - LINUX DO](https://linux.do/t/topic/514603)
 
 # 构建方案
