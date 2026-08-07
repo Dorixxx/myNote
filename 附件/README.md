@@ -8,7 +8,7 @@ created: 2026-08-07
 updated: 2026-08-07
 ---
 
-# Attachments
+# 附件
 
 > 本说明由 AI 按《笔记库优化方案》生成。
 
