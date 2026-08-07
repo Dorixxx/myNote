@@ -135,9 +135,9 @@ hermes cron remove da1873c43eb3    # 删除
 
 - [x] 在 `hermes model` 或 `hermes auth` 配置一个备用 Provider，降低单一 Provider 不可用的风险。
 - [ ] 视需要配置 TTS、浏览器、其他消息平台或更多 MCP 服务：`hermes setup`。
-- [ ] 通过 `hermes config set approvals.mode smart` 保持智能命令审批；不要长期使用 `off`。
-- [ ] 如需查看日志：`hermes logs` 或 `hermes logs errors`。
-- [ ] 如需升级前检查状态：`hermes version`；确认兼容性后再执行 `hermes update`。
+- [x] 通过 `hermes config set approvals.mode smart` 保持智能命令审批；不要长期使用 `off`。
+- [x] 如需查看日志：`hermes logs` 或 `hermes logs errors`。
+- [x] 如需升级前检查状态：`hermes version`；确认兼容性后再执行 `hermes update`。
 
 ## 日常维护与排障
 
