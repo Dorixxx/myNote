@@ -125,15 +125,15 @@ hermes cron remove da1873c43eb3    # 删除
 
 ### 必需/优先
 
-- [ ] 执行 `hermes doctor`，处理环境和依赖诊断项。
-- [ ] 通过 `hermes model` 复核主模型、Provider、备用模型以及限额策略。
-- [ ] 确认 Gateway 在服务器重启后可自动启动：`hermes gateway status`。
-- [ ] 用 `hermes mcp test my-note` 定期检查笔记库连接和授权是否有效。
-- [ ] 定期测试每日草稿任务是否能成功发送微信简报：`hermes cron run da1873c43eb3`。
+- [x] 执行 `hermes doctor`，处理环境和依赖诊断项。
+- [x] 通过 `hermes model` 复核主模型、Provider、备用模型以及限额策略。
+- [x] 确认 Gateway 在服务器重启后可自动启动：`hermes gateway status`。
+- [x] 用 `hermes mcp test my-note` 定期检查笔记库连接和授权是否有效。
+- [x] 定期测试每日草稿任务是否能成功发送微信简报：`hermes cron run da1873c43eb3`。
 
 ### 可选扩展
 
-- [ ] 在 `hermes model` 或 `hermes auth` 配置一个备用 Provider，降低单一 Provider 不可用的风险。
+- [x] 在 `hermes model` 或 `hermes auth` 配置一个备用 Provider，降低单一 Provider 不可用的风险。
 - [ ] 视需要配置 TTS、浏览器、其他消息平台或更多 MCP 服务：`hermes setup`。
 - [ ] 通过 `hermes config set approvals.mode smart` 保持智能命令审批；不要长期使用 `off`。
 - [ ] 如需查看日志：`hermes logs` 或 `hermes logs errors`。
