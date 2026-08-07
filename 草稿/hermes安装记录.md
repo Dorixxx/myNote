@@ -19,7 +19,9 @@ hermes v0.20.0
 
 ## 部署方法
 
-1. 
+1. 阿里云服务器切换镜像-hermes
+2. 配置hermes的model：
+	1. 
 
 
 
