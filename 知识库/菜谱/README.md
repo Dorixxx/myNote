@@ -1,11 +1,11 @@
 ---
-type: reference
+created: 2026-08-07T00:00:00Z
+source: AI
 status: active
 topics:
-  - 菜谱
-source: AI 生成（按笔记库优化方案）
-created: 2026-08-07
-updated: 2026-08-07
+    - 菜谱
+type: reference
+updated: "2026-08-07"
 ---
 
 # 菜谱
