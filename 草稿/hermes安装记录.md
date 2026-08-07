@@ -117,10 +117,10 @@ hermes gateway --help
 
 验收清单：
 
-- [ ] 能从微信向 Agent 发送一条普通文本消息。
-- [ ] Agent 的回复能正常回传微信。
-- [ ] 重启 Gateway 后仍可收发。
-- [ ] 服务器重启后，`hermes gateway status` 显示服务自动恢复。
+- [x] 能从微信向 Agent 发送一条普通文本消息。
+- [x] Agent 的回复能正常回传微信。
+- [x] 重启 Gateway 后仍可收发。
+- [x] 服务器重启后，`hermes gateway status` 显示服务自动恢复。
 
 ### 3. MCP：my-note 笔记库
 
