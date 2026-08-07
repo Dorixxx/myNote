@@ -21,7 +21,13 @@ hermes v0.20.0
 
 1. 阿里云服务器切换镜像-hermes
 2. 配置hermes的model：
-	1. 
+```
+//配置model
+hermes model
+
+```
+
+	1. `
 
 
 
